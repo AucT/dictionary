@@ -69,7 +69,7 @@ class WordRepository
 
     public static function search($word)
     {
-        $word = trim($word);
+        $word = ascii(trim($word));
         if (!$word) {
             return [];
         }
@@ -90,7 +90,7 @@ class WordRepository
     {
 
         $data = [];
-        $word = trim($word);
+        $word = ascii(trim($word));
         $word = "%{$word}%";
         if ($word) {
             $data = SimplePdo::run("SELECT name FROM word_en WHERE name LIKE ? LIMIT 30", [$word])->fetchAll(\PDO::FETCH_COLUMN);
