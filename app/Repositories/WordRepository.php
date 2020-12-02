@@ -81,7 +81,7 @@ class WordRepository
             return [];
         }
 
-        $all = SimplePdo::run("SELECT word_en_uk.`*`, word_uk.name AS word_uk_name, app.app_id, app.app_name FROM word_en_uk LEFT JOIN word_uk ON word_uk.id = word_en_uk.word_uk LEFT JOIN app ON app.id = word_en_uk.app WHERE word_en = ?", [$id])->fetchAll(\PDO::FETCH_ASSOC);
+        $all = SimplePdo::run("SELECT word_en_uk.*, word_uk.name AS word_uk_name, app.app_id, app.app_name FROM word_en_uk LEFT JOIN word_uk ON word_uk.id = word_en_uk.word_uk LEFT JOIN app ON app.id = word_en_uk.app WHERE word_en = ?", [$id])->fetchAll(\PDO::FETCH_ASSOC);
         return $all;
 
     }
