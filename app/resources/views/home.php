@@ -161,7 +161,7 @@
     <p>
         <small>Переклад взятий з найпопулярніших додатків Андроїд, включаючи chrome, facebook, twitter та інші.</small>
     </p>
-    <p><small><b>API</b> Для видачі у форматі json додайте параметр format=json до адреси. <a target="_blank" rel="noopener" href="https://github.com/AucT/dictionary">github</a></small></p>
+    <p><small><b>API</b> Для видачі у форматі json додайте параметр format=json до адреси. <a target="_blank" rel="noopener" href="https://github.com/AucT/translator">github</a></small></p>
 
 
 </div>
