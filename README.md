@@ -1,6 +1,6 @@
-## Англо-український словник іт слів
-Англо-український словник іт слів, взятих з перекладів додатків android.  
-[Демо](https://dictionary.auct.eu/)
+## Англо-український перекладач іт слів
+Англо-український перекладач іт слів, взятих з перекладів додатків android.  
+[Демо](https://translator.auct.eu)
 
 ## Вступ
 
@@ -11,13 +11,13 @@
 Потрібно мати apktool на пк.
 
 ## Встановлення скрипту
-1. git clone https://github.com/AucT/dictionary.git  
-2. cd dictionary
+1. git clone https://github.com/AucT/translator.git  
+2. cd translator
 3. composer install  
 4. COPY app/Configuration.php.example app/Configuration.php
 5. змінити конфіг бд
 6. створити бд mysql
-7. імпортувати database/dictionary.sql
+7. імпортувати database/translator.sql
 
 ## Наповнення контентом
 

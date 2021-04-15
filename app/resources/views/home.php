@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Англо-український словник ІТ слів</title>
+    <title>Англо-український перекладач ІТ слів</title>
     <meta name="description" content="Convert text to hyphen-case online">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -89,7 +89,7 @@
 <body>
 
 <div class="wrap">
-    <h1><a href="/">Англо-український словник ІТ слів</a></h1>
+    <h1><a href="/">Англо-український перекладач ІТ слів</a></h1>
 
     <form>
 
@@ -131,7 +131,7 @@
 
             </table>
         <?php else: ?>
-        <p>Такого слова нема в словнику</p>
+        <p>Такого слова нема в нашій базі</p>
         <?php endif; ?>
 
     <?php elseif($plurals):?>
