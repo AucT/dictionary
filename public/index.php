@@ -1,4 +1,8 @@
 <?php
+if ($_SERVER['HTTP_HOST'] == 'dictionary.auct.eu') {
+    header("Location: https://translator.auct.eu{$_SERVER['REQUEST_URI']}", true, 301);
+    exit;
+}
 require  '../vendor/autoload.php';
 $data = [];
 $plurals = [];
