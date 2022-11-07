@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Англо-український перекладач ІТ слів</title>
-    <meta name="description" content="Convert text to hyphen-case online">
+    <meta name="description" content="Англо-український перекладач іт слів, взятих з перекладів додатків android">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
